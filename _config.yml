@@ -1,7 +1,7 @@
 title: arifbudiman.web.id # The title of the blog
 author: Arif Budiman # Your name
 email: arifbudiman@outlook.com # your email shown in the footer
-url: https://bukupedia.github.io/random-notes/ # this is your site's root address.
+url: https://arifbudiman.web.id/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
   A place to document anything worth remembering.
 favicon: "./favicon.ico" # set the favicon of the site
