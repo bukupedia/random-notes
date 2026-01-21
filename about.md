@@ -4,9 +4,8 @@ layout: about
 
 This is a personal weblog.
 
-This blog exists as a place to document anything worth remembering &dash; thoughts, notes, ideas, experiments, observations, etc.
+This blog exists as a place to document anything worth remembering &dash; thoughts, notes, ideas, experiments, observations, or daily experiences. Serve as a personal archive over time.
 
-There is no fixed topic and no intended audience. This is simply a record, written for clarity, personal reference and future use.
+There is no fixed topic, no publishing schedule and no targeted audience. Anything can be logged and updated as needed.
 
-Nothing is curated. Nothing is optimized.  
-Just logged, as it is.
+This is simply a record, written for personal reference, clarity and future use.
