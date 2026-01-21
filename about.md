@@ -8,4 +8,4 @@ This blog exists as a place to document anything worth remembering &ndash; thoug
 
 There is no fixed topic, no publishing schedule and no targeted audience. Anything can be logged and updated as needed.
 
-This is simply a record, written for personal reference, clarity and future use.
+This is simply a record, written primarily for personal reference, clarity and future use.
