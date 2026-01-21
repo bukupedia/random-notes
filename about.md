@@ -2,9 +2,11 @@
 layout: about
 ---
 
-These are controlled by `about.md` under the root directory. If you want a more diverse self-introduction, you can insert the markdown content you want here.
+This is a personal weblog.
 
-### What's New
+This blog exists as a place to document anything worth remembering &dash; thoughts, notes, ideas, experiments, observations, etc.
 
-- One paper got accepted in xxx 2019.
-- I'm going to join xxx as a xxx 2019 Fall.
+There is no fixed topic and no intended audience. This is simply a record, written for clarity, personal reference and future use.
+
+Nothing is curated. Nothing is optimized.  
+Just logged, as it is.
