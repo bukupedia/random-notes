@@ -156,7 +156,7 @@ let exampleFunction = () => {
 
 ## Links
 
-Markdown provides a syntax for links that’s easy to remember. First, type the text you want to appear on the page in square brackets, then add the link in parenthesis. If I want to link to Treehouse, I would type
+Markdown provides a syntax for links that’s easy to remember. First, type the text you want to appear on the page in square brackets, then add the link in parenthesis.
 
 [This is the text you want to appear](https://example.com/)
 
