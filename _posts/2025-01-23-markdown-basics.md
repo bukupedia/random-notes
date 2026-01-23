@@ -16,7 +16,7 @@ Type a single hash (AKA pound symbol) and a space to create the largest or first
 
 ### Paragraphs and Line Breaks
 
-We create paragraphs by typing the way we would in any other program. Just hit return twice to start another paragraph.
+We create paragraphs by typing the way we would in any other program. Just hit enter twice to start another paragraph.
 
 Where you see empty space between blocks of text in your Markdown document, you will see empty space separating those blocks of text in your formatted HTML document.
 
