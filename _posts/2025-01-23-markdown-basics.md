@@ -22,7 +22,7 @@ Where you see empty space between blocks of text in your Markdown document, you 
 
 #### Line Breaks
 
-You don’t always want that space that appears between one line of text and another: for example, lines of poetry or song lyrics don't have spaces between them. To add just a line break without a space, type two spaces at the end of a line, then press return once.
+You don’t always want that space that appears between one line of text and another: for example, lines of poetry or song lyrics don't have spaces between them. To add just a line break without a space, type two spaces at the end of a line, then press enter once.
 
 I love you without knowing how, or when, or  
 from where  
@@ -176,9 +176,9 @@ Now at another place in the document, add the reference number in square bracket
 
 ## Images
 
-Type a label for the image in square brackets. On the Web we call this alt text, because it will be displayed as an alternate if the image cannot be shown for any reason. I have an image of kittens, so I’ll write, “Kittens” in square brackets and follow that with the url for the image in parenthesis.
+Type a label for the image in square brackets. On the Web we call this alt text, because it will be displayed as an alternate if the image cannot be shown for any reason. Type the alt text in square brackets and follow that with the url for the image in parenthesis.
 
-That creates a link for the kitten image, but I want to display the image. All I have to do is add an exclamation mark in front of the square brackets.
+That creates a link!, but I want to display the image. All I have to do is add an exclamation mark in front of the square brackets.
 
 ![Sample Image](https://placehold.co/250x400)
 
