@@ -176,7 +176,7 @@ Now at another place in the document, add the reference number in square bracket
 
 ## Images
 
-Type a label for the image in square brackets. On the Web we call this alt text, because it will be displayed as an alternate if the image cannot be shown for any reason. Type the alt text in square brackets and follow that with the url for the image in parenthesis.
+Type the alt text in square brackets. On the Web we call this alt text, because it will be displayed as an alternate if the image cannot be shown for any reason. then follow that with the url for the image in parenthesis.
 
 That creates a link!, but I want to display the image. All I have to do is add an exclamation mark in front of the square brackets.
 
@@ -195,3 +195,5 @@ Images can have titles like links too. You add them the same way. After the imag
 ## Conclusion
 
 That's it for this document. You now have a handy Markdown reference. Feel free to explore more information about Markdown and its many flavors, but this is a great start. The more you use Markdown the more natural it will feel.
+
+You may see source code or download copy of this document [here](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/_posts/2025-01-23-markdown-basics.md) for your reference.
