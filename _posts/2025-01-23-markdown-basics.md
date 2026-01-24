@@ -93,10 +93,12 @@ To nest an item, indent it with a tab or at least two spaces beneath the item ab
 
 #### Bulleted Lists
 
-Bulleted lists work like numbered lists, but you use the asterisk character, a space, and no period.
+Bulleted lists work like numbered lists, but you use the asterisk character or hyphens, a space, and no period.
 
 * Item One
 * Item Two
+- Item Three
+- Item Four
 
 You can nest bulleted items too. We just indent our item below another item like we did with our numbered list.
 
