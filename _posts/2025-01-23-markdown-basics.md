@@ -135,7 +135,7 @@ You can mix the two list styles too. Just use the numbers or asterisks where you
 
 ## Code
 
-We format code using the backtick (`\`\`) character. The backtick is on the same key as the tilde (`~`) on a U.S. English keyboard, which is usually to the left of the number 1 and above the tab key.
+We format code using the backtick character. The backtick is on the same key as the tilde (`~`) on a U.S. English keyboard, which is usually to the left of the number 1 and above the tab key.
 
 You can use a single backtick to create inline code. For example, you may type something like this:
 
