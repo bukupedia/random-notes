@@ -135,7 +135,7 @@ You can mix the two list styles too. Just use the numbers or asterisks where you
 
 ## Code
 
-We format code using the backtick (```) character. The backtick is on the same key as the tilde (`~`) on a U.S. English keyboard, which is usually to the left of the number 1 and above the tab key.
+We format code using the backtick (`\`\`) character. The backtick is on the same key as the tilde (`~`) on a U.S. English keyboard, which is usually to the left of the number 1 and above the tab key.
 
 You can use a single backtick to create inline code. For example, you may type something like this:
 
@@ -198,4 +198,4 @@ That's it for this document. You now have a handy Markdown reference. Feel free 
 
 You may see source code or download copy of this document [here][source-code] for your reference.
 
-[source-code]: 
+[source-code]: https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/_posts/2025-01-23-markdown-basics.md "View Source"
