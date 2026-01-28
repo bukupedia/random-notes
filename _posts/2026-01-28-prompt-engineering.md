@@ -193,7 +193,7 @@ Berikan saya data pengguna dummy hanya dalam format JSON yang saya minta. Tidak 
 Di akhir setiap respons, sebutkan ulang aturan yang saya berikan.
 ```
 
-## 4. Iterative Prompt Development
+## Iterative Prompt Development
 
 Iterative Prompt Development, yaitu mindset yang harus dimiliki oleh seorang prompt engineer dalam merancang prompt yang ia buat. di mana pada dasarnya sebuah prompt tidak harus selalu bersifat final dalam satu kali percobaan, melainkan senantiasa dapat disempurnakan secara iteratif melalui observasi respons dari model Generative AI.
 
