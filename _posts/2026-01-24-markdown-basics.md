@@ -198,6 +198,6 @@ Images can have titles like links too. You add them the same way. After the imag
 
 That's it for this document. You now have a handy Markdown reference. Feel free to explore more information about Markdown and its many flavors like GFM ([GitHub Flavored Markdown](https://github.github.com/gfm/)), but this is a great start. The more you use Markdown the more natural it will feel.
 
-View the source or download a copy of this document [here][source] for your reference.
+View the source or download a copy of this document for your reference [here][source].
 
-[source]: https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/_posts/2025-01-23-markdown-basics.md "View Source"
+[source]: https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/_posts/2026-01-24-markdown-basics.md "View Source"
