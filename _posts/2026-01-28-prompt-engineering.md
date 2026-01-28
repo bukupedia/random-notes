@@ -33,5 +33,38 @@ Cara terbaik untuk membuat prompt yang jelas adalah dengan membuatnya menggunaka
 
 **Contoh Prompt:**
 
+Peran: Bertindaklah sebagai **mentor karier untuk software developers.**
+Objektif: **Susunlah panduan mengenai apa saja yang perlu ditulis pada bagian "About" di profil LinkedIn.**
+Konteks: **Panduan ini ditujukan khusus untuk fresh graduate yang baru lulus kuliah.**
+Batasan: Pastikan panduan tersebut memiliki **batasan maksimal empat paragraf.**
+
+## Pola-pola dalam Prompt Engineering
+
+### 1. Pola Dasar
+
+#### 1.1 Pola Persona
+
+**Contoh Prompt:**
+
+```plaintext
+Kamu adalah seorang software developer senior. Berikan tips untuk menjaga kesehatan tubuh manusia
+```
+
+#### 1.2 Persona Audiens
+
+**Contoh Prompt:**
+
+```plaintext
+Jelaskan apa itu algoritma kepada anak berusia 5 tahun
+```
+
+#### 1.3 Few-shots
+
+Pola ini berguna untuk tugas yang membutuhkan hasil dengan format tertentu, seperti ekstraksi informasi atau pembuatan konten dengan struktur khusus.
+
+Pola few-shot dibuat dengan menambahkan dua hal, yaitu label deskriptif (Pada contoh: Bahasa Pemrograman) dan beberapa contoh (shots).
+
+**Contoh Prompt:**
+
 
 
