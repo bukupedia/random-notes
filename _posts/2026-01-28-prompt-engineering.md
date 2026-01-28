@@ -33,10 +33,12 @@ Cara terbaik untuk membuat prompt yang jelas adalah dengan membuatnya menggunaka
 
 **Contoh Prompt:**
 
+```plaintext
 Peran: Bertindaklah sebagai **mentor karier untuk software developers.**
 Objektif: **Susunlah panduan mengenai apa saja yang perlu ditulis pada bagian "About" di profil LinkedIn.**
 Konteks: **Panduan ini ditujukan khusus untuk fresh graduate yang baru lulus kuliah.**
 Batasan: Pastikan panduan tersebut memiliki **batasan maksimal empat paragraf.**
+```
 
 ## Pola-pola dalam Prompt Engineering
 
