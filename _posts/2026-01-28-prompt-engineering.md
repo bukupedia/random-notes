@@ -8,7 +8,7 @@ Prompt engineering adalah suatu disiplin ilmu dalam merancang sebuah prompt untu
 
 Prompt engineering pada dasarnya merupakan cara menyusun pertanyaan yang lebih baik untuk diajukan kepada model Generative AI. Lebih dari itu, prompt engineering sebenarnya mempelajari cara membentuk pemikiran dan menyusunnya menjadi sebuah pertanyaan terstruktur sehingga dapat mengurangi risiko hasil keluaran yang salah.
 
-## Contents
+## Daftar Isi
 * [Best Practice](#best-practice)
 * [Pola-pola dalam Prompt Engineering](#pola-pola-dalam-prompt-engineering)
   * [Pola Dasar](#pola-dasar)
@@ -33,7 +33,7 @@ Cara terbaik untuk membuat prompt yang jelas adalah dengan membuatnya menggunaka
 
 **Contoh Prompt:**
 
-```plaintext
+```markdown
 Peran: Bertindaklah sebagai **mentor karier untuk software developers.**
 Objektif: **Susunlah panduan mengenai apa saja yang perlu ditulis pada bagian "About" di profil LinkedIn.**
 Konteks: **Panduan ini ditujukan khusus untuk fresh graduate yang baru lulus kuliah.**
@@ -42,9 +42,9 @@ Batasan: Pastikan panduan tersebut memiliki **batasan maksimal empat paragraf.**
 
 ## Pola-pola dalam Prompt Engineering
 
-### 1. Pola Dasar
+### 1. Pola Dasar <a id="pola-dasar"></a>
 
-#### 1.1 Pola Persona
+#### 1.1 Pola Persona <a id="pola-persona"></a>
 
 **Contoh Prompt:**
 
@@ -52,7 +52,7 @@ Batasan: Pastikan panduan tersebut memiliki **batasan maksimal empat paragraf.**
 Kamu adalah seorang software developer senior. Berikan tips untuk menjaga kesehatan tubuh manusia
 ```
 
-#### 1.2 Persona Audiens
+#### 1.2 Persona Audiens <a id="persona-audiens"></a>
 
 **Contoh Prompt:**
 
@@ -60,7 +60,7 @@ Kamu adalah seorang software developer senior. Berikan tips untuk menjaga keseha
 Jelaskan apa itu algoritma kepada anak berusia 5 tahun
 ```
 
-#### 1.3 Few-shots
+#### 1.3 Few-shots <a id="few-shots"></a>
 
 Pola ini berguna untuk tugas yang membutuhkan hasil dengan format tertentu, seperti ekstraksi informasi atau pembuatan konten dengan struktur khusus.
 
@@ -70,7 +70,7 @@ Pola few-shot dibuat dengan menambahkan dua hal, yaitu label deskriptif (Pada co
 
 [![Contoh prompt dengan menggunakan pola few-shots](https://i.imgur.com/3Vmolve.jpeg)](https://i.imgur.com/3Vmolve.jpeg)
 
-#### 1.4 Chain-of-Thought
+#### 1.4 Chain-of-Thought <a id="chain-of-thought"></a>
 
 Pola ini membimbing model menghasilkan respons melalui contoh. Mirip dengan pola few-shots, Perbedaannya, few-shot hanya menyediakan contoh, sedangkan chain-of-thought lebih detail. Jadi, selain memberikan contoh, pada pola chain-of-thought, kita juga menambahkan langkah-langkah untuk memandu model menyelesaikan tugas.
 
@@ -80,7 +80,7 @@ Pola ini membimbing model menghasilkan respons melalui contoh. Mirip dengan pola
 
 Pola chain-of-thought dibuat dengan memberikan contoh beserta dengan tahapan-tahapan pengerjaan untuk menghasilkan hasil akhir. Dengan begitu, model dapat meniru proses yang dicontohkan untuk menghasilkan jawaban yang lebih akurat.
 
-#### 1.5 Pola ReAct
+#### 1.5 Pola ReAct <a id="pola-react"></a>
 
 Pola ReAct adalah pengembangan lanjutan dari pola chain-of-thought. Selain membimbing model menghasilkan respons melalui contoh dan proses bertahap, kita juga membimbing model untuk mengambil tindakan (action) mengakses tools eksternal jika membutuhkan informasi yang tidak dimiliki oleh model.
 
@@ -90,11 +90,11 @@ Alih-alih hanya memberikan jawaban akhir menggunakan asumsi, pola ReAct meminta 
 
 [![Contoh prompt dengan pola ReAct](https://i.imgur.com/6SNjsYw.jpeg)](https://i.imgur.com/6SNjsYw.jpeg)
 
-### 2. Adaptive Prompting
+### 2. Adaptive Prompting <a id="adaptive-prompting"></a>
 
 adalah berbagai cara yang bisa kita gunakan untuk menyempurnakan prompt sehingga respons model menjadi lebih tepat sasaran.
 
-#### 2.1 Question Refinement
+#### 2.1 Question Refinement <a id="question-refinement"></a>
 
 Pola question refinement memanfaatkan pengetahuan model Generative AI dengan meminta model memperbaiki atau menyempurnakan pertanyaan kita terlebih dahulu jika diperlukan. Pola ini memungkinkan model membantu kita menemukan pertanyaan yang lebih tepat untuk mendapatkan jawaban yang lebih relevan. 
 
@@ -106,7 +106,7 @@ Selain itu, pola question refinement juga memberi kesempatan untuk merefleksikan
 Pada setiap pertanyaan yang saya ajukan, tolong sarankan versi pertanyaan yang lebih baik untuk digunakan. Kemudian, di akhir, tanyakan kepada saya versi mana yang ingin saya gunakan.
 ```
 
-#### 2.2 Alternative Approaches
+#### 2.2 Alternative Approaches <a id="alternative-approaches"></a>
 
 Dengan pola ini, kita dapat meminta model Generative AI untuk menawarkan beragam opsi pertanyaan alternatif. Beragam pertanyaan ini membantu kita merefleksikan apa yang sebenarnya ingin kita capai dan memungkinkan untuk memilih pertanyaan yang paling relevan dengan kebutuhan.
 
@@ -116,7 +116,7 @@ Dengan pola ini, kita dapat meminta model Generative AI untuk menawarkan beragam
 Setiap kali saya mengajukan pertanyaan, berikan daftar alternatif pertanyaan yang dapat mencapai tujuan yang sama, tetapi dengan formulasi yang lebih baik. Sertakan juga perbandingan kelebihan dan kekurangan antara pertanyaan saya dan daftar alternatif yang Anda berikan
 ```
 
-#### 2.3 Cognitive Verifier
+#### 2.3 Cognitive Verifier <a id="cognitive-verifier"></a>
 
 Pola ini melibatkan proses meminta model Generative AI untuk memecah pertanyaan utama menjadi bagian-bagian yang lebih kecil melalui serangkaian pertanyaan tambahan.
 
@@ -128,7 +128,7 @@ Dengan pola cognitive verifier, model Generative AI memiliki kesempatan untuk me
 Setiap kali saya mengajukan pertanyaan, mohon ajukan beberapa pertanyaan tambahan yang dapat membantu Anda memahami dengan lebih jelas apa yang saya maksud. Pastikan semua informasi yang nanti saya berikan digunakan sebelum memberikan jawaban akhir.
 ```
 
-#### 2.4 Flipped Interaction
+#### 2.4 Flipped Interaction <a id="flipped-interaction"></a>
 
 Pola flipped interaction adalah pola alur interaksi dengan model Generative AI dibalik. Alih-alih meminta model memecah pertanyaan seperti dalam Cognitive Verifier, kita menjelaskan objektif tugas terlebih dahulu, lalu meminta model mengajukan pertanyaan untuk memahami masalah dengan lebih baik.
 
@@ -144,11 +144,11 @@ Pola ini dibuat dengan cara:
 
 [![Contoh interaksi yang dihasilkan menggunakan pola flipped interaction pada salah satu model Generative AI](https://i.imgur.com/HBv6O9h.jpeg)](https://i.imgur.com/HBv6O9h.jpeg)
 
-### 3. Pola Konsistensi Hasil
+### 3. Pola Konsistensi Hasil <a id="pola-konsistensi-hasil"></a>
 
 Mengenal berbagai pola yang digunakan untuk memastikan konsistensi dari respons yang dihasilkan oleh model Generative AI.
 
-#### 3.1 Tail Generation
+#### 3.1 Tail Generation <a id="tail-generation"></a>
 
 Pola tail generation dibuat dengan langkah berikut.
 
@@ -163,7 +163,7 @@ Setiap kali saya bertanya tentang JavaScript, pastikan pada akhir jawaban kamu s
 Pertanyaan: Apa perbedaan let dan const di JavaScript?
 ```
 
-#### 3.2 Pola Template
+#### 3.2 Pola Template <a id="pola-template"></a>
 
 Pola template dibuat dengan cara:
 
@@ -193,7 +193,7 @@ Berikan saya data pengguna dummy hanya dalam format JSON yang saya minta. Tidak 
 Di akhir setiap respons, sebutkan ulang aturan yang saya berikan.
 ```
 
-### 4. Iterative Prompt Development
+### 4. Iterative Prompt Development <a id="iterative-prompt-development"></a>
 
 Iterative Prompt Development, yaitu mindset yang harus dimiliki oleh seorang prompt engineer dalam merancang prompt yang ia buat. di mana pada dasarnya sebuah prompt tidak harus selalu bersifat final dalam satu kali percobaan, melainkan senantiasa dapat disempurnakan secara iteratif melalui observasi respons dari model Generative AI.
 
