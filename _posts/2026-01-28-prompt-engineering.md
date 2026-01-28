@@ -88,7 +88,7 @@ Alih-alih hanya memberikan jawaban akhir menggunakan asumsi, pola ReAct meminta 
 
 **Contoh Prompt:**
 
-[![Contoh prompt dengan pola ReAct](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-react.jpeg)]([https://i.imgur.com/6SNjsYw.jpeg](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-react.jpeg))
+[![Contoh prompt dengan pola ReAct](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-react.jpeg)](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-react.jpeg)
 
 ### 2. Adaptive Prompting <a id="adaptive-prompting"></a>
 
