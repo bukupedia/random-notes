@@ -6,7 +6,7 @@ categories: AI
 
 Prompt engineering adalah suatu disiplin ilmu dalam merancang sebuah prompt untuk membimbing model Generative AI menghasilkan respons yang sesuai dengan keinginan.
 
-Prompt engineering pada dasarnya merupakan cara menyusun pertanyaan yang lebih baik untuk diajukan kepada model Generative AI. Lebih dari itu, prompt engineering sebenarnya mempelajari cara membentuk pemikiran dan menyusunnya menjadi sebuah pertanyaan terstruktur sehingga dapat mengurangi risiko hasil keluaran yang salah.
+Prompt engineering pada dasarnya merupakan cara menyusun pertanyaan yang lebih baik untuk diajukan kepada model Generative AI. Lebih dari itu, prompt engineering sebenarnya mempelajari cara membentuk pemikiran dan menyusunnya menjadi sebuah pertanyaan terstruktur sehingga dapat mengurangi risiko respon yang salah dari model Generative AI.
 
 ## Daftar Isi
 * [Best Practice](#best-practice)
