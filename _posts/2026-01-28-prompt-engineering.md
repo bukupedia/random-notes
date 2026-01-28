@@ -68,7 +68,7 @@ Pola few-shot dibuat dengan menambahkan dua hal, yaitu label deskriptif (Pada co
 
 **Contoh Prompt:**
 
-[![Contoh prompt dengan menggunakan pola few-shots](https://i.imgur.com/3Vmolve.jpeg)](https://i.imgur.com/3Vmolve.jpeg)
+[![Contoh prompt dengan menggunakan pola few-shots](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-few-shots.jpeg)](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-few-shots.jpeg)
 
 #### 1.4 Chain-of-Thought <a id="chain-of-thought"></a>
 
@@ -76,7 +76,7 @@ Pola ini membimbing model menghasilkan respons melalui contoh. Mirip dengan pola
 
 **Contoh Prompt:**
 
-[![Contoh prompt dengan pola chain-of-thought](https://i.imgur.com/SGwQhMx.jpeg)](https://i.imgur.com/SGwQhMx.jpeg)
+[![Contoh prompt dengan pola chain-of-thought](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-chain-of-thought.jpeg)](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-chain-of-thought.jpeg)
 
 Pola chain-of-thought dibuat dengan memberikan contoh beserta dengan tahapan-tahapan pengerjaan untuk menghasilkan hasil akhir. Dengan begitu, model dapat meniru proses yang dicontohkan untuk menghasilkan jawaban yang lebih akurat.
 
@@ -88,7 +88,7 @@ Alih-alih hanya memberikan jawaban akhir menggunakan asumsi, pola ReAct meminta 
 
 **Contoh Prompt:**
 
-[![Contoh prompt dengan pola ReAct](https://i.imgur.com/6SNjsYw.jpeg)](https://i.imgur.com/6SNjsYw.jpeg)
+[![Contoh prompt dengan pola ReAct](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-react.jpeg)]([https://i.imgur.com/6SNjsYw.jpeg](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-react.jpeg))
 
 ### 2. Adaptive Prompting <a id="adaptive-prompting"></a>
 
@@ -140,9 +140,9 @@ Pola ini dibuat dengan cara:
 
 **Contoh Prompt:**
 
-[![Contoh prompt menggunakan pola flipped interaction](https://i.imgur.com/gd0PvxJ.jpeg)](https://i.imgur.com/gd0PvxJ.jpeg)
+[![Contoh prompt menggunakan pola flipped interaction](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-flipped-interaction-prompt.jpeg)](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-flipped-interaction-prompt.jpeg)
 
-[![Contoh interaksi yang dihasilkan menggunakan pola flipped interaction pada salah satu model Generative AI](https://i.imgur.com/HBv6O9h.jpeg)](https://i.imgur.com/HBv6O9h.jpeg)
+[![Contoh interaksi yang dihasilkan menggunakan pola flipped interaction pada salah satu model Generative AI](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-flipped-interaction-result.jpeg)](https://raw.githubusercontent.com/bukupedia/random-notes/refs/heads/main/media/2026-01-28-flipped-interaction-result.jpeg)
 
 ### 3. Pola Konsistensi Hasil <a id="pola-konsistensi-hasil"></a>
 
