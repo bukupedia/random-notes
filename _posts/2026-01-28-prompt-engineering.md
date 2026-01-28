@@ -68,5 +68,133 @@ Pola few-shot dibuat dengan menambahkan dua hal, yaitu label deskriptif (Pada co
 
 **Contoh Prompt:**
 
+[![Contoh prompt dengan menggunakan pola few-shots](https://i.imgur.com/3Vmolve.jpeg)](https://i.imgur.com/3Vmolve.jpeg)
 
+#### 1.4 Chain-of-Thought
 
+Pola ini membimbing model menghasilkan respons melalui contoh. Mirip dengan pola few-shots, Perbedaannya, few-shot hanya menyediakan contoh, sedangkan chain-of-thought lebih detail. Jadi, selain memberikan contoh, pada pola chain-of-thought, kita juga menambahkan langkah-langkah untuk memandu model menyelesaikan tugas.
+
+**Contoh Prompt:**
+
+[![Contoh prompt dengan pola chain-of-thought](https://i.imgur.com/SGwQhMx.jpeg)](https://i.imgur.com/SGwQhMx.jpeg)
+
+Pola chain-of-thought dibuat dengan memberikan contoh beserta dengan tahapan-tahapan pengerjaan untuk menghasilkan hasil akhir. Dengan begitu, model dapat meniru proses yang dicontohkan untuk menghasilkan jawaban yang lebih akurat.
+
+#### 1.5 Pola ReAct
+
+Pola ReAct adalah pengembangan lanjutan dari pola chain-of-thought. Selain membimbing model menghasilkan respons melalui contoh dan proses bertahap, kita juga membimbing model untuk mengambil tindakan (action) mengakses tools eksternal jika membutuhkan informasi yang tidak dimiliki oleh model.
+
+Alih-alih hanya memberikan jawaban akhir menggunakan asumsi, pola ReAct meminta model Generative AI mengakses tools eksternal untuk mendapatkan informasi yang dibutuhkan sebelum menghasilkan respons (misalnya, mencari dan mengambil data dari situs web, menonton video, atau mengambil data dari API). Dengan ini, model mampu memberikan respons yang lebih akurat.
+
+**Contoh Prompt:**
+
+[![Contoh prompt dengan pola ReAct](https://i.imgur.com/6SNjsYw.jpeg)](https://i.imgur.com/6SNjsYw.jpeg)
+
+### 2. Adaptive Prompting
+
+adalah berbagai cara yang bisa kita gunakan untuk menyempurnakan prompt sehingga respons model menjadi lebih tepat sasaran.
+
+#### 2.1 Question Refinement
+
+Pola question refinement memanfaatkan pengetahuan model Generative AI dengan meminta model memperbaiki atau menyempurnakan pertanyaan kita terlebih dahulu jika diperlukan. Pola ini memungkinkan model membantu kita menemukan pertanyaan yang lebih tepat untuk mendapatkan jawaban yang lebih relevan. 
+
+Selain itu, pola question refinement juga memberi kesempatan untuk merefleksikan proses berpikir kita sendiri dan mengidentifikasi informasi penting yang mungkin terlewat.
+
+**Contoh Prompt:**
+
+```plaintext
+Pada setiap pertanyaan yang saya ajukan, tolong sarankan versi pertanyaan yang lebih baik untuk digunakan. Kemudian, di akhir, tanyakan kepada saya versi mana yang ingin saya gunakan.
+```
+
+#### 2.2 Alternative Approaches
+
+Dengan pola ini, kita dapat meminta model Generative AI untuk menawarkan beragam opsi pertanyaan alternatif. Beragam pertanyaan ini membantu kita merefleksikan apa yang sebenarnya ingin kita capai dan memungkinkan untuk memilih pertanyaan yang paling relevan dengan kebutuhan.
+
+**Contoh Prompt:**
+
+```plaintext
+Setiap kali saya mengajukan pertanyaan, berikan daftar alternatif pertanyaan yang dapat mencapai tujuan yang sama, tetapi dengan formulasi yang lebih baik. Sertakan juga perbandingan kelebihan dan kekurangan antara pertanyaan saya dan daftar alternatif yang Anda berikan
+```
+
+#### 2.3 Cognitive Verifier
+
+Pola ini melibatkan proses meminta model Generative AI untuk memecah pertanyaan utama menjadi bagian-bagian yang lebih kecil melalui serangkaian pertanyaan tambahan.
+
+Dengan pola cognitive verifier, model Generative AI memiliki kesempatan untuk mengumpulkan lebih banyak konteks dari pertanyaan sebelum menghasilkan jawaban akhir yang akurat dan relevan.
+
+**Contoh Prompt:**
+
+```plaintext
+Setiap kali saya mengajukan pertanyaan, mohon ajukan beberapa pertanyaan tambahan yang dapat membantu Anda memahami dengan lebih jelas apa yang saya maksud. Pastikan semua informasi yang nanti saya berikan digunakan sebelum memberikan jawaban akhir.
+```
+
+#### 2.4 Flipped Interaction
+
+Pola flipped interaction adalah pola alur interaksi dengan model Generative AI dibalik. Alih-alih meminta model memecah pertanyaan seperti dalam Cognitive Verifier, kita menjelaskan objektif tugas terlebih dahulu, lalu meminta model mengajukan pertanyaan untuk memahami masalah dengan lebih baik.
+
+Pola ini dibuat dengan cara:
+
+1. Menentukan objektif tugas (contoh: "Buat kode testing untuk halaman Tambah Buku").
+2. Meminta model untuk menanyakan serangkaian pertanyaan terkait objektif tugas (contoh: "Ajukan saya pertanyaan terkait skrip testing yang saya inginkan").
+3. Menentukan batasan dari pertanyaan yang perlu diajukan model (contoh: Tanyakan sampai Anda dapat membuat kode testing untuk berbagai skenario yang saya inginkan). Ini krusial untuk menghindari model terus bertanya tanpa henti.
+
+**Contoh Prompt:**
+
+[![Contoh prompt menggunakan pola flipped interaction](https://i.imgur.com/gd0PvxJ.jpeg)](https://i.imgur.com/gd0PvxJ.jpeg)
+
+[![Contoh interaksi yang dihasilkan menggunakan pola flipped interaction pada salah satu model Generative AI](https://i.imgur.com/HBv6O9h.jpeg)](https://i.imgur.com/HBv6O9h.jpeg)
+
+### 3. Pola Konsistensi Hasil
+
+Mengenal berbagai pola yang digunakan untuk memastikan konsistensi dari respons yang dihasilkan oleh model Generative AI.
+
+#### 3.1 Tail Generation
+
+Pola tail generation dibuat dengan langkah berikut.
+
+1. Memberikan peraturan yang harus dipatuhi model selama menghasilkan respons.
+2. Meminta model untuk selalu mengakhiri responsnya dengan mengulang aturan yang telah kita tetapkan.
+
+**Contoh Prompt:**
+
+```plaintext
+Setiap kali saya bertanya tentang JavaScript, pastikan pada akhir jawaban kamu selalu menegaskan bahwa bahasa pemrograman JavaScript berbeda dengan bahasa pemrograman Java. Di akhir setiap respons, Sebutkan ulang aturan yang saya berikan.
+
+Pertanyaan: Apa perbedaan let dan const di JavaScript?
+```
+
+#### 3.2 Pola Template
+
+Pola template dibuat dengan cara:
+
+1. Menggunakan delimiter dengan label yang dapat membantu model memahami keinginan kita.
+2. Menggunakan pola tail generation untuk memastikan konsistensi respons model.
+
+**Note:**
+Delimiter adalah tanda yang kita gunakan untuk membedakan atau menandai bagian tertentu di dalam prompt.
+
+Delimiter dapat berupa tanda apa saja, misalnya tanda kurung sudut (<...>), kurung siku ([...]), tanda petik dua ("..."), atau tanda khusus lainnya.
+
+Tujuannya adalah agar model Generative AI dapat mengidentifikasi bagian di dalam delimiter, lalu memproses informasi/perintah tersebut secara terpisah. Alhasil, bagian itu tidak dianggap sebagai teks biasa, melainkan instruksi tambahan yang perlu diikuti sebagai bagian dari instruksi utama.
+
+**Contoh Prompt:**
+
+```plaintext
+Berikan saya data pengguna dummy hanya dalam format JSON yang saya minta. Tidak perlu memberikan bentuk format lain selain yang saya minta. Berikut ini adalah bentuk formatnya:
+
+[
+{
+"id": value,
+"nama": value,
+"pertanyaan": <Jika id ganjil, tanyakan tentang pemrograman web; jika id genap, tanyakan tentang pemrograman mobile>
+}
+]
+
+Di akhir setiap respons, sebutkan ulang aturan yang saya berikan.
+```
+
+### 4. Iterative Prompt Development
+
+Iterative Prompt Development, yaitu mindset yang harus dimiliki oleh seorang prompt engineer dalam merancang prompt yang ia buat. di mana pada dasarnya sebuah prompt tidak harus selalu bersifat final dalam satu kali percobaan, melainkan senantiasa dapat disempurnakan secara iteratif melalui observasi respons dari model Generative AI.
+
+Penyempurnaan prompt bisa berupa revisi pada prompt awal atau memberikan feedback kepada model Generative AI pada interaksi berikutnya. Pada feedback, kita jelaskan kepada model mengenai apa saja yang perlu diperbaiki dari respons yang ia hasilkan.
