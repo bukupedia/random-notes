@@ -4,8 +4,6 @@ title: "Mengenal 7 Model Pengembangan Software yang Paling Banyak Digunakan"
 categories: software-development
 ---
 
-# Mengenal 7 Model Pengembangan Software yang Paling Banyak Digunakan
-
 Perkembangan teknologi membuat proses pembuatan perangkat lunak menjadi semakin terstruktur dan strategis. Saat ini, pengembangan software tidak hanya berfokus pada penulisan kode, tetapi juga melibatkan perencanaan, kolaborasi tim, hingga manajemen risiko. Karena itu, berbagai model pengembangan software hadir sebagai solusi dengan karakteristik dan tantangan masing-masing.
 
 Bagi kamu yang berkecimpung di bidang IT atau sekadar ingin memahami bagaimana sebuah aplikasi dibangun, mengenal model-model pengembangan software adalah hal penting. Pengetahuan ini bisa membantu menentukan pendekatan yang paling tepat untuk sebuah proyek.
